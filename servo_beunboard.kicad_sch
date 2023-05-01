@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Servo Controller")
+    (date "2023-05-01")
+    (rev "v1")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -1327,7 +1333,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 254 146.05 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 686e2b53-5216-44d1-bfe5-cb8db6a41b8e)
     (property "Reference" "H1" (at 256.54 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1335,7 +1341,7 @@
     (property "Value" "MountingHole" (at 256.54 147.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 254 146.05 0)
+    (property "Footprint" "servo-hacking:JLC_ToolingHole" (at 254 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 146.05 0)
@@ -1645,7 +1651,7 @@
     (property "Reference" "C3" (at 69.85 52.705 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BULK" (at 69.85 55.245 0)
+    (property "Value" "22uF" (at 69.85 55.245 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 65.0748 49.53 0)
@@ -1654,7 +1660,7 @@
     (property "Datasheet" "~" (at 66.04 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C15850" (at 66.04 53.34 0)
+    (property "LCSC" "C45783" (at 66.04 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 16714a9b-c6eb-46d1-a6c7-464a60d30ca5))
@@ -1825,7 +1831,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 254 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4feea04-7e49-49a0-8417-f447c3f5f2fb)
     (property "Reference" "H2" (at 256.54 154.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1833,7 +1839,7 @@
     (property "Value" "MountingHole" (at 256.54 156.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 254 154.94 0)
+    (property "Footprint" "servo-hacking:JLC_ToolingHole" (at 254 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 154.94 0)
