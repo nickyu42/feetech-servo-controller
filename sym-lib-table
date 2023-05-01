@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "servo-hacking")(type "KiCad")(uri "${KIPRJMOD}/servo-hacking.kicad_sym")(options "")(descr ""))
+  (lib (name "drv8212")(type "KiCad")(uri "${KIPRJMOD}/drv8212.kicad_sym")(options "")(descr ""))
+)
